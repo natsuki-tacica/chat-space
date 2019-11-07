@@ -34,7 +34,7 @@ Things you may want to cover:
 - belongs_to :group
 - belongs_to :user
 
-## message　テーブル
+## messages　テーブル
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
@@ -43,5 +43,16 @@ Things you may want to cover:
 |body|text|null: false, foreign_key: true|
 
 ### Association
-- belongs_to :image
-- belongs_to :body
+- belongs_to :group
+- belongs_to :user
+
+## user　テーブル
+|Column|Type|Options|
+|------|----|-------|
+|user_id|integer|null: false, foreign_key: true|
+|name|integer|null: false, foreign_key: true|
+|email|string|null: false, foreign_key: true|
+|encrypted_password|string|null: false, foreign_key: true|
+
+### Association
+- has_many:messages
