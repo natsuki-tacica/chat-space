@@ -37,10 +37,10 @@ Things you may want to cover:
 ## messages　テーブル
 |Column|Type|Options|
 |------|----|-------|
-|user_id|integer|null: false, foreign_key: true|
-|group_id|integer|null: false, foreign_key: true|
-|image|string|null: false, foreign_key: true|
-|body|text|null: false, foreign_key: true|
+|user_id|integer| foreign_key: true|
+|group_id|integer|foreign_key: true|
+|image|string|
+|body|text|
 
 ### Association
 - belongs_to :group
@@ -50,9 +50,11 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |user_id|integer|null: false, foreign_key: true|
-|name|integer|null: false, foreign_key: true|
-|email|string|null: false, foreign_key: true|
-|encrypted_password|string|null: false, foreign_key: true|
+|name|integer|null: false|
+|email|string|null: false|
+|encrypted_password|string|null: false|
 
 ### Association
 - has_many:messages
+
+
