@@ -55,3 +55,4 @@ gem 'haml-rails'
 gem 'font-awesome-sass'
 gem 'devise'
 gem "font-awesome-rails"
+gem "mini_magick"
