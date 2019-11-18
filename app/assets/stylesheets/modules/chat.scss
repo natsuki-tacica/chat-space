@@ -4,7 +4,7 @@
     box-sizing: border-box;
     height: 100px;
     padding: 0 40px;
-    .left-header {
+    .left-box {
       float: left;
       &__title {
         color: #333;
@@ -41,7 +41,8 @@
     background-color: #FAFAFA;
     box-sizing: border-box;
     padding: 46px 40px 0;
-    height: calc(100% - 100px - 90px);
+    height: calc(100vh - 190px);
+    overflow: scroll;
     .message {
       .upper-message {
         display: flex;
