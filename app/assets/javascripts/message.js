@@ -66,6 +66,6 @@ $('#new_message').on('submit', function(e){
       });
     };
   }
-  setInterval(reloadMessages, 5000);
+  setInterval(reloadMessages, 10000);
 });
 
