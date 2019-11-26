@@ -16,11 +16,9 @@
     &__lists {
       display: inline-block;
       float: right;
+      color: $white;
       .list {
         display: inline-block;
-      }
-      .icon {
-        color: $white;
         font-size: $side_header_font;
       }
     }
@@ -44,4 +42,10 @@
       }
     }
   }
+}
+.fa.fa-edit{
+  color: white;
+}
+.fa.fa-cog{
+  color: white;
 }
